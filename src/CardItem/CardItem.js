@@ -17,7 +17,7 @@ const CardItem = ({products}) => {
       <Text style={styles.title}>{products.title}</Text>
       <Text style={styles.price}>{products.price}</Text>
       <Text style={styles.inStock}>
-        {products.inStock === true ? 'Satın Al' : 'Stokta Yok'}
+        {products.inStock === true ? 'Satın Al' : 'Tükendi'}
       </Text>
     </View>
   );
